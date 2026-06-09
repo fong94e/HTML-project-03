@@ -3,8 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./assets/css/reset.css" />
-        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet" />
+
+        <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png" />
@@ -22,10 +26,42 @@
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
-        <title>Shine smile</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <title>shine smile</title>
     </head>
     <body>
-        <h1>hello world</h1>
-        <p>hello world</p>
+        <main style="height: 5000px">
+            <header class="header">
+                <div class="container">
+                    <div class="header-top">
+                        <a href="/">
+                            <div class="logo">
+                                <div class="logo__shape"></div>
+                                <span class="logo__text">
+                                    <span class="logo__brand">shine</span>
+                                    <span class="logo__brand logo__brand--small">smile</span>
+                                </span>
+                            </div>
+                        </a>
+                        <nav class="nav-bar">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Doctors</a></li>
+                            </ul>
+                        </nav>
+                        <div class="action">
+                            <a href="#" class="login-btn">Log In</a>
+                            <button class="signup-btn">Sign Up</button>
+                        </div>
+                    </div>
+                    <div class="header-bottom"></div>
+                </div>
+            </header>
+        </main>
     </body>
 </html>
